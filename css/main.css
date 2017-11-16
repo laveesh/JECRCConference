@@ -44,7 +44,6 @@ h4{
 }
 
 a {
-  color: #E8CE0E;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -173,10 +172,16 @@ body > section {
 /*************************
 *******Header******
 **************************/
-.navbar-fixed-top .navbar-toggle .icon-bar {
+.navbar-inverse .navbar-toggle .icon-bar {
   background-color: #fff;
 }
 
+.affix{
+  top:0;
+  width: 100%;
+  z-index: 9999;
+
+}
 .navbar>.container .navbar-brand{
   margin-left: 0;
 }
@@ -231,7 +236,7 @@ ul.social-share li a:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #151515;
+  background: #ccf3ff;
   padding: 15px 0;
   padding-bottom: 0;
 }
@@ -245,7 +250,7 @@ ul.social-share li a:hover {
   padding-bottom: 28px;
 }
 
-.navbar-fixed-top .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
   padding: 5px 12px;
   margin: 0;
   border-radius: 3px;
@@ -254,32 +259,32 @@ ul.social-share li a:hover {
   display: inline-block;
 }
 
-.navbar-fixed-top .navbar-nav > li > a:hover{
+.navbar-inverse .navbar-nav > li > a:hover{
 	background-color: #E8CE0E;
   color: #fff;
 }
 
-.navbar-fixed-top {
+.navbar-inverse {
   border: none;
 }
 
-.navbar-fixed-top .navbar-brand {
+.navbar-inverse .navbar-brand {
   font-size: 36px;
   line-height: 50px;
   color: #fff;
 }
 
-.navbar-fixed-top .navbar-nav > .active > a,
-.navbar-fixed-top .navbar-nav > .active > a:hover,
-.navbar-fixed-top .navbar-nav > .active > a:focus,
-.navbar-fixed-top .navbar-nav > .open > a,
-.navbar-fixed-top .navbar-nav > .open > a:hover,
-.navbar-fixed-top .navbar-nav > .open > a:focus {
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
   background-color: #E8CE0E;
   color: #fff;
 }
 
-.navbar-fixed-top .navbar-nav .dropdown-menu {
+.navbar-inverse .navbar-nav .dropdown-menu {
   background-color: rgba(0,0,0,.85);
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -292,33 +297,33 @@ ul.social-share li a:hover {
   left: 0;
 }
 
-.navbar-fixed-top .navbar-nav .dropdown-menu:before{
+.navbar-inverse .navbar-nav .dropdown-menu:before{
   position: absolute;
   top:0;
 }
 
-.navbar-fixed-top .navbar-nav .dropdown-menu > li > a {
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
   padding: 8px 15px;
   color: #fff;
 }
 
-.navbar-fixed-top .navbar-nav .dropdown-menu > li:hover > a,
-.navbar-fixed-top .navbar-nav .dropdown-menu > li:focus > a,
-.navbar-fixed-top .navbar-nav .dropdown-menu > li.active > a {
+.navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
   background-color: #E8CE0E;
   color: #fff;
 }
 
-.navbar-fixed-top .navbar-nav .dropdown-menu > li:last-child > a {
+.navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
   border-radius: 0 0 3px 3px;
 }
 
-.navbar-fixed-top .navbar-nav .dropdown-menu > li.divider {
+.navbar-inverse .navbar-nav .dropdown-menu > li.divider {
   background-color: transparent;
 }
 
-.navbar-fixed-top .navbar-collapse,
-.navbar-fixed-top .navbar-form {
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
   border-top: 0;
   padding-bottom: 0;
 }
@@ -359,9 +364,9 @@ ul.social-share li a:hover {
 }
 
 #carousel-slider a i:hover {
-  background:#E8CE0E;
+  background:#91d6f2;
   color:#fff;
-  border: 1px solid #E8CE0E;
+  border: 1px solid #91d6f2;
 }
 
 #carousel-slider 
@@ -1829,6 +1834,102 @@ ul.sidebar-gallery {
 
 
 
+.imgs{
+  width: 100%;
+  height:auto;
+}
 
+.banner{
+  display: flex;
+  margin: 1em;
+}
+.banner>div{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: 1em;
+}
+.conference{
+  border-right: 1px solid #888888;  
+}
 
+.banner div .IEEE{
+    width: 70%;
+    height: 70%;
 
+}
+.banner div .JECRC{
+    width: 30%;
+    height: 30%;
+
+}
+.banner h1{
+  color: #000;
+  text-align: center;
+  width: 100%;
+  font-family: 'Impact';
+  font-size: 24px;
+}
+.marquee{
+ background-color:#91d6f2;
+ 
+}
+@media only screen and (max-width:768px ){
+  .banner{
+    flex-direction: column;
+  }
+  .banner>div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 1em;
+}
+.conference{
+  border-right: 0px solid #888888;  
+  border-bottom:  1px solid #888888;  
+}
+
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+}
+.links .common button{
+  border-radius: 2px;
+  
+  width: 100%;
+
+  
+ font-family: 'Comic Sans ';
+ font-weight: bold;
+
+}
+.links .common {
+  width: 23%;
+  margin: 2px;
+
+}
+.common button a{
+  text-decoration: none !important;
+  color: white;
+
+}
+.conference-title{
+  position: absolute;
+  background-color: #807575;
+  opacity: 2.8;
+  color: white;
+  width: 100%;
+}
+.links2{
+  margin-bottom: 5px;
+}
+.link-img{
+  height: 250px;
+}
+.des{
+  font-size: 25px;
+  line-height: 30px;
+}

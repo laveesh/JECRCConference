@@ -1,0 +1,3 @@
+jecrcfoundation--	http://jecrcfoundation.com/images/logo.jpg
+jecrcuniversity--	https://jecrcuniversity.edu.in/img/core/JU-Logo.png
+jecrcudml--		http://www.jecrcudml.edu.in/images/logo.png
