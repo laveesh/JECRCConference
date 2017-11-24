@@ -1843,28 +1843,56 @@ ul.sidebar-gallery {
   display: flex;
   margin: 1em;
 }
+.banner .conference-img{
+  width: 70%;
+  display: block !important;
+}
+.banner .conference-name{
+  width: 30%;
+  flex-direction: column;
+}
+
+.conference-name h3{
+  color :#c30c0c;
+}
+
 .banner>div{
-  width: 50%;
-  height: 100%;
+  
+  /*height: 100%;*/
   display: flex;
   padding: 1em;
+  align-items: center;
+  justify-content: center;
 }
-.conference{
+.conference-name{
   border-right: 1px solid #888888;  
+  background-color: #fbfbfb;
+}
+
+.banner div .RTDEEE{
+  width: 12%;
+  height: 12%;
 }
 
 .banner div .IEEE{
-    width: 70%;
-    height: 70%;
+    width: 19%;
+  
 
 }
-.banner div .JECRC{
-    width: 30%;
-    height: 30%;
+.organised{
+  text-align-last: right;
+}
+.banner div .JECRC {
+    width: 20%;
+    height: 20%;
+
+}
+.imgb{
+  width: 21%;
 
 }
 .banner h1{
-  color: #000;
+  color: #427ecc;
   text-align: center;
   width: 100%;
   font-family: 'Impact';
@@ -1879,14 +1907,17 @@ ul.sidebar-gallery {
     flex-direction: column;
   }
   .banner>div{
-  width: 100%;
+  width: 100% !important ;
   height: 100%;
   display: flex;
   padding: 1em;
 }
-.conference{
+.conference-name{
   border-right: 0px solid #888888;  
   border-bottom:  1px solid #888888;  
+}
+.conference-name h1 , h3{
+  margin: 2px;
 }
 
 }
