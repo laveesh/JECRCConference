@@ -1937,8 +1937,13 @@ ul.sidebar-gallery {
  font-weight: bold;
 
 }
+@media only screen and (max-width: 767px) {
+  .links .common button{
+    font-size: 0.8em;
+  }
+}
 .links .common {
-  width: 23%;
+  width: 18%;
   margin: 2px;
 
 }
@@ -1963,4 +1968,14 @@ ul.sidebar-gallery {
 .des{
   font-size: 25px;
   line-height: 30px;
+}
+.events{
+  padding: 86px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+@media only screen and (max-width:767px ){
+  .events{
+    padding: 0;
+  }
 }
