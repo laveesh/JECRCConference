@@ -119,7 +119,7 @@ body > section {
 
 .center {
   text-align: center;
-  padding-bottom: 55px;
+  padding:20px;
 }
 
 .scaleIn {
@@ -487,7 +487,7 @@ ul.social-share li a:hover {
   height: 100%;
   opacity: 0;
   border-radius: 0;
-  background: #333;
+  background: #000000a3;
   color: #fff;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
@@ -1843,8 +1843,14 @@ ul.sidebar-gallery {
   display: flex;
   margin: 1em;
 }
+.banner .conference-img1{
+  width: 20%;
+  display: block !important;
+  border-right: 1px solid #888888;  
+  background-color: #fbfbfb;
+}
 .banner .conference-img{
-  width: 70%;
+  width: 50%;
   display: block !important;
 }
 .banner .conference-name{
@@ -1888,7 +1894,7 @@ ul.sidebar-gallery {
 
 }
 .imgb{
-  width: 21%;
+  width: 100%;
 
 }
 .banner h1{
@@ -1912,10 +1918,11 @@ ul.sidebar-gallery {
   display: flex;
   padding: 1em;
 }
-.conference-name{
-  border-right: 0px solid #888888;  
+.conference-name,.conference-img1{
+  border-right: 0px solid #888888 !important;  
   border-bottom:  1px solid #888888;  
 }
+
 .conference-name h1 , h3{
   margin: 2px;
 }
@@ -1954,7 +1961,7 @@ ul.sidebar-gallery {
 }
 .conference-title{
   position: absolute;
-  background-color: #807575;
+  background-color: #000000c4;
   opacity: 2.8;
   color: white;
   width: 100%;
@@ -1977,5 +1984,13 @@ ul.sidebar-gallery {
 @media only screen and (max-width:767px ){
   .events{
     padding: 0;
+  }
+}
+.middle{
+  left: 25%;
+}
+@media only screen and (max-width:767px ){
+  .middle{
+    left: 0;
   }
 }
