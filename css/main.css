@@ -1994,3 +1994,14 @@ ul.sidebar-gallery {
     left: 0;
   }
 }
+
+.ab-jecrc
+{
+  right: 10px;
+  bottom: 0;
+  position: fixed;
+  z-index: 11;
+  color:#fff;
+  border-color: #3390c7;
+  background-color: #1ca0ee;
+}
