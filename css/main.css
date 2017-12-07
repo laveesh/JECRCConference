@@ -2005,6 +2005,7 @@ ul.sidebar-gallery {
 .des{
   font-size: 19px;
   line-height: 30px;
+  text-align: center;
 }
 @media only screen and (max-width:1024px) {
   .des{
@@ -2033,16 +2034,7 @@ ul.sidebar-gallery {
   }
 }
 
-.ab-jecrc
-{
-  right: 10px;
-  bottom: 0;
-  position: fixed;
-  z-index: 11;
-  color:#fff;
-  border-color: #3390c7;
-  background-color: #1ca0ee;
-}
+
 @media only screen and (max-width: 425px){
   h3{
      line-height: 14px;
