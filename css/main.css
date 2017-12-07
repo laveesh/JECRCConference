@@ -672,7 +672,7 @@ ul.social-share li a:hover {
 .panel-default>.panel-heading,
 .panel{
   background-color: #e6e6e6; 
-  border:0 none;
+  border:2px solid #1c8e7e;
   box-shadow:none;
 }
 
@@ -2003,7 +2003,7 @@ ul.sidebar-gallery {
   height: 250px;
 }
 .des{
-  font-size: 25px;
+  font-size: 19px;
   line-height: 30px;
 }
 @media only screen and (max-width:1024px) {
@@ -2051,4 +2051,8 @@ ul.sidebar-gallery {
 .des{
   line-height: 8px;
 }
+}
+
+.table{
+
 }
