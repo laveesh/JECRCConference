@@ -474,8 +474,12 @@ ul.social-share li a:hover {
   height: 100%;
   border-radius: 0;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
-
+.table td,tr,th{
+  border: 2px solid rgb(28, 142, 126);
+}
 .recent-work-wrap .recent-work-inner h3{
   margin: 0;
 }
@@ -1961,6 +1965,7 @@ ul.sidebar-gallery {
   align-items: center;
   justify-content: center;
   margin: 2px;
+  width:100;
 }
 .links .common button{
   border-radius: 2px;
@@ -1972,13 +1977,17 @@ ul.sidebar-gallery {
  font-weight: bold;
 
 }
+.texts{
+  width: 100%;
+  text-align: center;
+}
 @media only screen and (max-width: 767px) {
   .links .common button{
     font-size: 0.8em;
   }
 }
 .links .common {
-  width: 18%;
+  width: 25%;
   margin: 2px;
 
 }
@@ -2044,7 +2053,22 @@ ul.sidebar-gallery {
   line-height: 8px;
 }
 }
-
-.table{
-
+.jecrc-img-container{
+  max-height: 250px;
+  width: 100%;
+  opacity: .788;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
+.jecrc-img{
+  max-height: 350px;
+  width: 100%;
+  }
+  .journals{
+    width: 100%;
+    height: 175px;
+  }
+  .journals-container{
+    padding: 10px;
+  }
