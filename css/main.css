@@ -484,9 +484,9 @@ ul.social-share li a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 20px !important;
   height: 100%;
-  opacity: 0;
+  opacity: 1;
   border-radius: 0;
   background: #000000a3;
   color: #fff;
@@ -496,6 +496,7 @@ ul.social-share li a:hover {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;  
   padding: 30px;
+  /*background-color: grey;*/
 }
 
 .recent-work-wrap .overlay .preview {
