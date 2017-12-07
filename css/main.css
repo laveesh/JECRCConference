@@ -484,6 +484,7 @@ ul.social-share li a:hover {
   top: 0;
   left: 0;
   width: 100%;
+  padding: 20px;
   height: 100%;
   opacity: 0;
   border-radius: 0;
@@ -1964,10 +1965,12 @@ ul.sidebar-gallery {
   background-color: #000000c4;
   opacity: 2.8;
   color: white;
+  text-align: center;
   width: 100%;
 }
 .links2{
   margin-bottom: 5px;
+  padding: 0; 
 }
 .link-img{
   height: 250px;
