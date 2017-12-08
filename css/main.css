@@ -1877,7 +1877,7 @@ ul.sidebar-gallery {
 }
 .banner .conference-img1{
   width: 20%;
-  display: block !important;
+  flex-direction:column;
   border-right: 1px solid #888888;  
   background-color: #fbfbfb;
 }
@@ -2056,7 +2056,6 @@ ul.sidebar-gallery {
 .jecrc-img-container{
   max-height: 250px;
   width: 100%;
-  opacity: .788;
   display: flex;
   align-content: center;
   justify-content: center;
