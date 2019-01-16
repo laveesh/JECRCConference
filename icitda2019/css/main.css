@@ -2066,12 +2066,26 @@ color: yellow;
 }
 .association-partners{
 	margin-left: 5vw;
+  
+}
+
+.association-images{
+  width:10rem;
+  height:100px;
+  border: 1px solid #435A65;
 }
 @media only screen and (max-width:425px ){
 
 .association-partners{
 	margin-left: 0;
 }	
+
+.association-images{
+  width:7rem;
+  height:100px;
+  border: 1px solid #435A65;
+}
+
 
 	}
 
