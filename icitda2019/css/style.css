@@ -238,7 +238,7 @@ ul.social-share li a:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #151515;
+  background: #2080c3;
   padding: 15px 0;
   padding-bottom: 0;
 }
@@ -1860,25 +1860,9 @@ ul.sidebar-gallery {
 
 /*Gallery*/
 
-* {
-  box-sizing: border-box;
-}
 
-.row > .column {
-  padding: 0 8px;
-}
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
+.
 /* The Modal (background) */
 .modal {
   display: none;
