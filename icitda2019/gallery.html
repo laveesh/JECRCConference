@@ -111,51 +111,32 @@
            <div class="center wow fadeInDown">
                 <h2>Our Gallery</h2>
                 <div class="row">
-  <div class="column">
-    <img src="images/gallery/1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/gallery/2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/gallery/3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/gallery/4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-</div>
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
+  <div class="mySlides">
       <div class="numbertext">1 / 4</div>
-      <img src="images/gallery/1.jpg" style="width:100%">
+      <img class="slides" src="images/gallery/1.jpg">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
-      <img src="images/gallery/2.jpg" style="width:100%">
+      <img class="slides" src="images/gallery/2.jpg">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">3 / 4</div>
-      <img src="images/gallery/3.jpg" style="width:100%">
+      <img class="slides" src="images/gallery/3.jpg" >
     </div>
     
     <div class="mySlides">
       <div class="numbertext">4 / 4</div>
-      <img src="images/gallery/4.jpg" style="width:100%">
+      <img class="slides" src="images/gallery/4.jpg">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <div class="caption-container">
+    <!-- <div class="caption-container">
       <p id="caption"></p>
-    </div>
-
+    </div> -->
 
     <div class="column">
       <img class="demo cursor" src="images/gallery/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
@@ -169,6 +150,13 @@
     <div class="column">
       <img class="demo cursor" src="images/gallery/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
     </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    
   </div>
 </div>
 
