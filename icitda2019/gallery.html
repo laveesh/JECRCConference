@@ -109,11 +109,11 @@
    <div class="center wow fadeInDown">
     <h2>Our Gallery</h2>
     <div class="row" id="event-img">
-    
-  </div>
 
-  
-</div>
+    </div>
+
+
+  </div>
 
 </div><!--/.container-->
 </section><!--/#feature-->
@@ -146,107 +146,105 @@
       <div class="association-partners"><a href="http://www.ijaconline.com" target="_blank">
         <img class="association-images"  src="images/ijac.png" ></a>
       </div>
-                                <!-- <div class="association-partners"><a href="http://www.ijcea.com" target="_blank">
-                                <img src="http://www.ijcea.com/wp-content/uploads/2013/04/IJCEA-Regular-paper-240x300.jpg" alt="Owl Image" ></a>
-                              </div> -->
-                              <div class="association-partners"><a href="http://jecrcuniversity.edu.in/" target="_blank">
-                                <img class="association-images" src="images/ju.png" alt="Owl Image" ></a>
-                              </div>
-                              <div class="association-partners"><a href="http://www.jecrcfoundation.com/" target="_blank">
-                                <img class="association-images" src="images/jecrc.jpg" alt="Owl Image" ></a>
-                              </div>
+      
+      <div class="association-partners"><a href="http://jecrcuniversity.edu.in/" target="_blank">
+        <img class="association-images" src="images/ju.png" alt="Owl Image" ></a>
+      </div>
+      <div class="association-partners"><a href="http://www.jecrcfoundation.com/" target="_blank">
+        <img class="association-images" src="images/jecrc.jpg" alt="Owl Image" ></a>
+      </div>
 
-                            </div>
+    </div>
 
-                            
-                            <!-- images/CSI.png -->
-                          </div>
+    
+    <!-- images/CSI.png -->
+  </div>
 
 
 
-                        </div>
-                      </div>
-                      <!-- </div> -->
+</div>
+</div>
+<!-- </div> -->
 
 
-                      <footer id="footer" class="midnight-blue">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-sm-6">
-                              &copy; 2019 <a target="_blank" href="http://jecrcfoundation.com/" >JECRC</a>. All Rights Reserved.
-                            </div>
-                            <div class="col-sm-6">
-                              Designed and Developed by DEPARTMENT of INFORMATION TECHNOLOGY.
-                            </div>
-                          </div>
-                        </div>
-                      </footer><!--/#footer-->
+<footer id="footer" class="midnight-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        &copy; 2019 <a target="_blank" href="http://jecrcfoundation.com/" >JECRC</a>. All Rights Reserved.
+      </div>
+      <div class="col-sm-6">
+        Designed and Developed by DEPARTMENT of INFORMATION TECHNOLOGY.
+      </div>
+    </div>
+  </div>
+</footer><!--/#footer-->
 
-                      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-                      <script src="js/jquery.js"></script>
-                      <script src="js/bootstrap.min.js"></script>
-                      <script src="js/jquery.prettyPhoto.js"></script>
-                      <script src="js/jquery.isotope.min.js"></script>   
-                      <script src="js/wow.min.js"></script>
-                      <script src="js/main.js"></script>
-                      <script>
-
-
-                        var slideIndex = 1;
-
-                        function plusSlides(n) {
-                          showSlides(slideIndex += n);
-                        }
-
-                        function currentSlide(n) {
-                          showSlides(slideIndex = n);
-                        }
-
-                        $( document ).ready(function() {
-                          console.log( "ready!" );
-                          var i;
-
-                          for(i = 1; i<=99; i++){
-                            $("#event-img").append('<div class="mySlides"> <div class="numbertext">'+i+' / 99</div>  <img class="slides" src="images/gallery/'+i+'.jpg">  </div>');
-                          }
-
-                          $("#event-img").append('<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>');
-
-                          for(i = 1; i<=99; i++){
-                            $("#event-img").append('<div class="column"> <img class="demo cursor" src="images/gallery/'+i+'.jpg" style="width:100%" onclick="currentSlide('+i+')" alt="">  </div>');
-                          }
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.isotope.min.js"></script>   
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+<script>
 
 
-                          showSlides(slideIndex);
+  var slideIndex = 1;
 
-                        });
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
 
-                        function showSlides(n) {
-                          var i;
-                          var slides = document.getElementsByClassName("mySlides");
-                          var dots = document.getElementsByClassName("demo");
-                          var captionText = document.getElementById("caption");
-                          if (n > 99) {slideIndex = 1}
-                            if (n < 1) {slideIndex = 99}
-                              for (i = 0; i < 99; i++) {
-                                slides[i].style.display = "none";
-                              }
-                              for (i = 0; i < dots.length; i++) {
-                                dots[i].className = dots[i].className.replace(" active", "");
-                              }
-                              slides[slideIndex-1].style.display = "block";
-                              dots[slideIndex-1].className += " active";
-                            }
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
 
-                            
-                          </script>
-                          <script>
-$(document).ready(function(){
-$('img').click(function(){
-   $("html, body").animate({scrollTop : 100},800);
-   return false;
-});
-});
-</script>
-                        </body>
-                        </html>
+  $( document ).ready(function() {
+    console.log( "ready!" );
+    var i;
+
+    for(i = 1; i<=99; i++){
+      $("#event-img").append('<div class="mySlides"> <div class="numbertext">'+i+' / 99</div>  <img class="slides" src="images/gallery/'+i+'.jpg">  </div>');
+    }
+
+    $("#event-img").append('<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>');
+
+    for(i = 1; i<=99; i++){
+      $("#event-img").append('<div class="column"> <img class="demo cursor" src="images/gallery/'+i+'.jpg" style="width:100%" onclick="currentSlide('+i+')" alt="">  </div>');
+    }
+
+
+    showSlides(slideIndex);
+
+  });
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > 99) {slideIndex = 1}
+      if (n < 1) {slideIndex = 99}
+        for (i = 0; i < 99; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+
+      
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('img').click(function(){
+         $("html, body").animate({scrollTop : 100},800);
+         return false;
+       });
+      });
+    </script>
+  </body>
+  </html>
