@@ -450,9 +450,9 @@ ul.social-share li a:hover {
   padding: 0;
 }
 
-#recent-works{
+/* #recent-works{
     padding-bottom: ;
-}
+} */
 
 .recent-work-wrap {
   position: relative;
@@ -2028,7 +2028,7 @@ ul.sidebar-gallery {
   margin: 0;
 }
   }
-}
+
 .events{
   padding: 86px;
   padding-bottom: 0;
