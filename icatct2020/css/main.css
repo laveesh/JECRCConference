@@ -1947,20 +1947,22 @@ ul.sidebar-gallery {
 
 }
 .banner div .ACM{
-    width: 32%;
-  
-
+  width: 16%;
+  margin: auto;
 }
 .banner div .CSI{
-    width: 12%;
-  
-
+  width: 10%;
+  margin: 10px;
 }
 .banner div .JECRC {
     width: 20%;
     height: 20%;
 
 }
+.banner .bjit {
+  width: 9%;
+}
+
 .imgb{
   width: 21%;
 
