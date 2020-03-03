@@ -1913,13 +1913,23 @@ ul.sidebar-gallery {
 }
 
 .iccomet {
-  width: 18%;
+  width: 16%;
+  height: 12%;
+}
+.icatct {
+  width: 16%;
   height: 12%;
 }
 
 .banner div .IEEE{
-    width: 19%;
+    width: 17%;
   
+
+}
+
+.banner div .ICRITDME{
+  width: 12%;
+
 
 }
 .organised{
