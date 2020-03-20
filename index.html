@@ -20,7 +20,7 @@
     <![endif]-->
   </head>
   <body class="homepage">
-    <div
+    <!-- <div
       class="marquee navbar-inverse"
       style="position:fixed;z-index:111;top:0;width:100%;"
       data-spy="affix"
@@ -34,8 +34,8 @@
         journals. The Conferences will held on 3<sup>rd</sup> April 2020 to
         4<sup>th</sup> April 2020. Venue for the conference is JECRC Foundation.
       </marquee>
-    </div>
-    <div class="banner">
+    </div> -->
+    <div class="banner" id="banner">
       <div class="conference-name">
         <div style="width:40%;">
           <img class="imgb" align="center" src="images/jc.png" />
@@ -185,8 +185,8 @@
 
                   <p class="des">
                     <b>
-                      International conference on Recent Innovation &
-                      Technology Development in Mechanical Engineering
+                      International conference on Recent Innovation & Technology
+                      Development in Mechanical Engineering
                     </b>
                   </p>
                 </div>
@@ -940,10 +940,7 @@
             /></a>
           </div>
           <div class="journals-container col-lg-2 col-md-2 col-xs-4 col-sm-2">
-            <a
-              href="#"
-              style="text-decoration: none"
-              target="_blank"
+            <a href="#" style="text-decoration: none" target="_blank"
               ><img class="journals" src="images/lnme.jpg" alt=""
             /></a>
           </div>
@@ -988,5 +985,13 @@
     <!--/#footer-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.js"></script>
+    <script>
+      $('#banner').before('<div id="conf-alert"></div>');
+
+      $('#conf-alert')
+        .load('./alert.html')
+        .ready($('#confcancel').css('position', 'fixed'));
+    </script>
   </body>
 </html>
