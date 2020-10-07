@@ -2,7 +2,7 @@ jQuery(function($) {
 
 	$("#header").before('<div id="conf-alert"></div>');
 
-	$("#conf-alert").load('./../../alert.html');
+	// $("#conf-alert").load('./../../alert.html');
 	
 	// accordian
 	$('.accordion-toggle').on('click', function(){
